@@ -121,7 +121,7 @@ For macOS iTerm only.
 - Colors Tab
 - Color Presets... > Import...
 - Select the `.itermcolors` file
-- Color Presets... > Select the imported scheme ("USGC-<THEME NAME>-IT")
+- Color Presets... > Select the imported scheme `USGC-<THEME NAME>-IT`
 
 ### USGC Bash Prompt
 ```
