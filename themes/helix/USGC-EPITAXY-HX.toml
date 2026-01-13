@@ -1,0 +1,125 @@
+# Author: U.S. Graphics Company
+# Theme: USGC-EPITAXY-HX
+# Part Number: 5200-040
+# Description: Magenta scheme - Crystal layer growth
+
+"tag" = { fg = "fl_blue" }
+
+"namespace" = { fg = "fl_magenta" }
+"module" = { fg = "fl_magenta" }
+
+"type" = { fg = "fl_magenta" }
+"type.builtin" = { fg = "magenta" }
+"type.enum.variant" = { fg = "foreground" } 
+"constructor" = { fg = "fl_magenta" }
+"variable.other.member" = { fg = "foreground" }
+
+"keyword" = { fg = "fl_blue" }
+"keyword.directive" = { fg = "fl_blue" }
+"keyword.control" = { fg = "fl_blue" }
+"label" = { fg = "fl_blue" }
+
+"special" = { fg = "fl_yellow" }
+"operator" = { fg = "foreground" }
+
+"punctuation" = { fg = "foreground" }
+"punctuation.delimiter" = { fg = "foreground" }
+
+"variable" = { fg = "foreground" }
+"variable.parameter" = { fg = "magenta" }
+"variable.builtin" = { fg = "fl_magenta" }
+"constant" = { fg = "magenta" }
+"constant.builtin" = { fg = "magenta" }
+
+"function" = { fg = "fl_magenta" }
+"function.builtin" = { fg = "magenta" }
+"function.macro" = { fg = "fl_yellow" }
+"attribute" = { fg = "fl_magenta" }
+
+"comment" = { fg = "gray" }
+"ui.virtual.whitespace" = "gray"
+"ui.virtual.ruler" = { bg = "black" }
+"ui.virtual.jump-label" = { fg = "fl_yellow", modifiers = ["bold"] }
+
+"string" = { fg = "yellow" }
+"constant.character" = { fg = "yellow" }
+"string.regexp" = { fg = "cyan" }
+"constant.numeric" = { fg = "magenta" }
+"constant.character.escape" = { fg = "fl_magenta" }
+
+"markup.heading" = "fl_magenta"
+"markup.list" = "fl_blue"
+"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "magenta", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "fl_yellow", modifiers = ["underlined"] }
+"markup.link.text" = "fl_magenta"
+"markup.quote" = "cyan"
+"markup.raw" = "fl_magenta"
+
+"diff.plus" = { fg = "fl_green" }
+"diff.delta" = { fg = "fl_yellow" }
+"diff.minus" = { fg = "fl_red" }
+
+"ui.background" = { fg = "foreground", bg = "background" }
+
+"ui.window" = { bg = "black" }
+"ui.popup" = { fg = "foreground", bg = "black" }
+"ui.help" = { fg = "foreground", bg = "black" }
+"ui.menu" = { fg = "foreground", bg = "black" }
+"ui.menu.selected" = { bg = "blue", fg = "fl_yellow" }
+
+"ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "gray", modifiers = ["reversed"] }
+
+"ui.selection" = { bg = "blue", fg = "fl_yellow" }
+"ui.selection.primary" = { bg = "blue", fg = "fl_yellow" }
+
+"ui.linenr" = { fg = "fl_blue" }
+"ui.linenr.selected" = { fg = "black" }
+
+"ui.cursorline" = { bg = "black" }
+"ui.statusline" = { fg = "black", bg = "fl_magenta" }
+"ui.statusline.inactive" = { fg = "gray", bg = "black" }
+
+"ui.bufferline.active" = { fg = "black", bg = "fl_magenta", modifiers = ["bold"] }
+"ui.virtual.inlay-hint" = { fg = "gray" }
+
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "white" }
+
+"warning" = { fg = "fl_orange" }
+"error" = { fg = "fl_red" }
+"info" = { fg = "fl_cyan" }
+"hint" = { fg = "fl_yellow" }
+
+"diagnostic.warning" = { underline = { color = "fl_orange", style = "curl" } }
+"diagnostic.error" = { underline = { color = "fl_red", style = "curl" } }
+"diagnostic.info" = { underline = { color = "fl_cyan", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "fl_yellow", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+[palette]
+black = "#000000"
+white = "#FFFFFF"
+fl_red = "#FF0000"
+fl_green = "#00FF00"
+fl_blue = "#0000FF"
+fl_cyan = "#00FFFF"
+fl_magenta = "#FF00FF"
+fl_yellow = "#FFFF00"
+fl_orange = "#FF6600"
+maroon = "#660000"
+green = "#00A645"
+blue = "#000066"
+cyan = "#006666"
+magenta = "#660066"
+yellow = "#FFBF00"
+olive = "#666600"
+gray = "#999999"
+
+background = "#000000"
+foreground = "#FF00FF"
+cursor = "#FFFFFF"

@@ -1,0 +1,125 @@
+# Author: U.S. Graphics Company
+# Theme: USGC-HIGHK-HX
+# Part Number: 5200-010
+# Description: White scheme - High dielectric constant
+
+"tag" = { fg = "fl_red" }
+
+"namespace" = { fg = "blue" }
+"module" = { fg = "blue" }
+
+"type" = { fg = "blue" }
+"type.builtin" = { fg = "fl_blue" }
+"type.enum.variant" = { fg = "foreground" } 
+"constructor" = { fg = "blue" }
+"variable.other.member" = { fg = "foreground" }
+
+"keyword" = { fg = "fl_red" }
+"keyword.directive" = { fg = "fl_red" }
+"keyword.control" = { fg = "fl_red" }
+"label" = { fg = "fl_red" }
+
+"special" = { fg = "cyan" }
+"operator" = { fg = "foreground" }
+
+"punctuation" = { fg = "foreground" }
+"punctuation.delimiter" = { fg = "foreground" }
+
+"variable" = { fg = "foreground" }
+"variable.parameter" = { fg = "olive" }
+"variable.builtin" = { fg = "blue" }
+"constant" = { fg = "cyan" }
+"constant.builtin" = { fg = "cyan" }
+
+"function" = { fg = "blue" }
+"function.builtin" = { fg = "fl_blue" }
+"function.macro" = { fg = "cyan" }
+"attribute" = { fg = "blue" }
+
+"comment" = { fg = "gray" }
+"ui.virtual.whitespace" = "gray"
+"ui.virtual.ruler" = { bg = "white" }
+"ui.virtual.jump-label" = { fg = "fl_yellow", modifiers = ["bold"] }
+
+"string" = { fg = "yellow" }
+"constant.character" = { fg = "yellow" }
+"string.regexp" = { fg = "cyan" }
+"constant.numeric" = { fg = "magenta" }
+"constant.character.escape" = { fg = "fl_magenta" }
+
+"markup.heading" = "fl_blue"
+"markup.list" = "fl_red"
+"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "magenta", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"] }
+"markup.link.text" = "blue"
+"markup.quote" = "cyan"
+"markup.raw" = "blue"
+
+"diff.plus" = { fg = "fl_green" }
+"diff.delta" = { fg = "yellow" }
+"diff.minus" = { fg = "fl_red" }
+
+"ui.background" = { fg = "foreground", bg = "background" }
+
+"ui.window" = { bg = "white" }
+"ui.popup" = { fg = "foreground", bg = "white" }
+"ui.help" = { fg = "foreground", bg = "white" }
+"ui.menu" = { fg = "foreground", bg = "white" }
+"ui.menu.selected" = { bg = "fl_green", fg = "black" }
+
+"ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "gray", modifiers = ["reversed"] }
+
+"ui.selection" = { bg = "fl_green", fg = "black" }
+"ui.selection.primary" = { bg = "fl_green", fg = "black" }
+
+"ui.linenr" = { fg = "fl_red" }
+"ui.linenr.selected" = { fg = "black" }
+
+"ui.cursorline" = { bg = "white" }
+"ui.statusline" = { fg = "white", bg = "black" }
+"ui.statusline.inactive" = { fg = "gray", bg = "white" }
+
+"ui.bufferline.active" = { fg = "white", bg = "black", modifiers = ["bold"] }
+"ui.virtual.inlay-hint" = { fg = "gray" }
+
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "fl_blue" }
+
+"warning" = { fg = "fl_orange" }
+"error" = { fg = "fl_red" }
+"info" = { fg = "fl_cyan" }
+"hint" = { fg = "fl_yellow" }
+
+"diagnostic.warning" = { underline = { color = "fl_orange", style = "curl" } }
+"diagnostic.error" = { underline = { color = "fl_red", style = "curl" } }
+"diagnostic.info" = { underline = { color = "fl_cyan", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "fl_yellow", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+[palette]
+black = "#000000"
+white = "#FFFFFF"
+fl_red = "#FF0000"
+fl_green = "#00FF00"
+fl_blue = "#0000FF"
+fl_cyan = "#00FFFF"
+fl_magenta = "#FF00FF"
+fl_yellow = "#FFFF00"
+fl_orange = "#FF6600"
+maroon = "#660000"
+green = "#00A645"
+blue = "#000066"
+cyan = "#006666"
+magenta = "#660066"
+yellow = "#FFBF00"
+olive = "#666600"
+gray = "#999999"
+
+background = "#FFFFFF"
+foreground = "#000000"
+cursor = "#0000FF"
